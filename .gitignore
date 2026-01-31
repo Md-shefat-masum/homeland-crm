@@ -1,0 +1,72 @@
+# VS Code SFTP Configuration (contains credentials)
+**/.vscode/sftp.json
+.vscode/sftp.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor directories
+.idea
+.fleet
+.nova
+.zed
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.phpactor.json
+
+# Environment & secrets (do not commit)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.backup
+!.env.example
+
+# Project API (Laravel)
+project/api/vendor
+project/api/node_modules
+project/api/.env
+project/api/.env.backup
+project/api/.env.production
+project/api/public/build
+project/api/public/hot
+project/api/public/storage
+project/api/storage/*.key
+project/api/storage/pail
+project/api/storage/framework/cache/*
+project/api/storage/framework/sessions/*
+project/api/storage/framework/views/*
+project/api/storage/logs/*
+project/api/bootstrap/cache/*
+project/api/.phpunit.result.cache
+project/api/.phpunit.cache
+project/api/Homestead.json
+project/api/Homestead.yaml
+project/api/auth.json
+*.log
+
+# Project App (Quasar / Vue / Node)
+project/app/node_modules
+project/app/.quasar
+project/app/dist
+project/app/quasar.config.*.temporary.compiled*
+project/app/src-cordova/node_modules
+project/app/src-cordova/platforms
+project/app/src-cordova/plugins
+project/app/src-cordova/www
+project/app/src-capacitor/www
+project/app/src-capacitor/node_modules
+project/app/.env.local
+project/app/.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: uncomment if you want to ignore root-level txt files
+# *.txt
