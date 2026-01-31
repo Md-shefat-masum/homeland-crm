@@ -1,0 +1,13 @@
+{
+  "name": "homelandcrm",
+  "version": "0.0.1",
+  "description": "CRM app",
+  "author": "cit-ics <citics493@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  }
+}
